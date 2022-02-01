@@ -23,8 +23,38 @@ body{
     color: #051931;
 }
 
+.fcolorgrey{
+    color: #C5CBD0;
+}
+
+.colorboard{
+    background-color: #47ADF1;
+}
+
+/* utility */
+
 .texttitle{
     display: inline-block;
     vertical-align: 14px;
 }
 
+#tasks{
+    border: 20px solid white;
+    width: 60%;
+    margin: 60px;
+    margin-left: 220px;
+    padding: 0px;
+    background-color: white;
+}
+
+
+.bords{
+    font-style: initial;
+    display: inline-block;
+    border: 1px solid #C5CBD0;
+    border-radius: 8px;
+    height: 20px;
+    padding: 10px;
+    line-height: 3px;
+    vertical-align: middle;
+}

@@ -20,6 +20,7 @@ header{
     height: 90px;
     line-height: 90px;
     padding:10px;
+    margin bottom: 50px;
 }
 
 .texttitle{
@@ -33,11 +34,12 @@ header{
 /* start main container 1 */
 
  .container{
-     display: inline-block;
-     margin: 100px 200px;
-     padding: 30px;
-     background-color: white;
-     width: 70%;
+    background-color: white;
+    margin:55px 260px;
+    padding: 20px;
+    width: 60%;
+    height: 50px;
+    display: inline-block;
  }
 
  .borderr{
@@ -62,4 +64,92 @@ header{
 
 .bcolorblue{
     background-color: #47ADF1;
+}
+
+.greencheckmark{
+    display: inline-block;
+    color: greenyellow;
+    border-radius: 30px;
+    border:1px solid greenyellow;
+    margin: 10px 0px;
+    width: 20px;
+    height: 20px;
+    font-size: 15px;
+}
+
+.redcross{
+    display: inline-block;
+    color: red;
+    border-radius: 30px;
+    border:1px solid red;
+    margin: 10px 0px;
+    width: 20px;
+    height: 20px;
+    font-size: 15px;
+}
+     
+
+
+/* start main container 2 */
+
+.container2{
+    background-color: white;
+    margin: 0px 260px;
+    padding: 20px;
+    width: 60%;
+    height: 600px;
+    display: inline-block;
+ }
+     
+}
+
+.ulist{
+    font-size: 20px;
+}
+
+ul{
+    list-style: none;
+}
+ 
+/* tickets */
+
+.ticket{
+     border: 1px solid #47ADF1;
+     background-color: #47ADF1;
+     font-size: 13px;
+     border-radius: 60px;
+     padding: 3px;
+     color: white;
+}
+
+.ticketviolet{
+     border: 1px solid #9C72E4;
+     background-color: #9C72E4;
+     font-size: 13px;
+     border-radius: 60px;
+     padding: 3px;
+     color: white;
+}
+
+.ticketgreen{
+     border: 1px solid #64C0A9;
+     background-color: #64C0A9;
+     font-size: 13px;
+     border-radius: 60px;
+     padding: 3px;
+     color: white;
+}
+
+ .ticketorange{
+     border: 1px solid #F29E33;
+     background-color:  #F29E33;
+     font-size: 13px;
+     border-radius: 60px;
+     padding: 3px;
+     color: white;
+}
+  
+
+ .today {
+    margin-top: 20px;
 }

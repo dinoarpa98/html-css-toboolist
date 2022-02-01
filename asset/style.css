@@ -41,7 +41,9 @@ body{
 #tasks{
     border: 20px solid white;
     width: 60%;
-    margin: 60px;
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 2px;
     margin-left: 220px;
     padding: 0px;
     background-color: white;
@@ -57,4 +59,13 @@ body{
     padding: 10px;
     line-height: 3px;
     vertical-align: middle;
+}
+
+.secondborder{
+    border: 20px solid white;
+    width: 60%;
+    margin-top: 1px;
+    margin-left: 220px;
+    padding: 20em;
+    background-color: white;
 }

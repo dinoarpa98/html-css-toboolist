@@ -14,37 +14,47 @@ body{
 
 /* header */
 
-header{
-    border:1px solid white;
+ header > div {
+    border: 1px solid white;
     background-color: white;
-    height: 90px;
-    line-height: 90px;
-    padding:10px;
-}
+ }
 
-.texttitle{
-    display: inline-block;
-    font-size: 35px;
-    vertical-align: 15px;
+ header{
+    height: 100px;
+    padding: 2opx 10px;
+ }
+
+
+ .logo{
+    height: 100%;
+    vertical-align: middle;
+ }
+
+  h1{
+    display: inline;
+    vertical-align: middle;
 }
 /* end header */
 
 
 /* start main container 1 */
 
- .container{
+ .todotop{
     background-color: white;
-    margin:55px 260px;
-    padding: 20px;
-    width: 60%;
-    height: 50px;
-    display: inline-block;
+    width: 80%;
+    margin: auto;
+    margin-top: 30px;
+    padding: 20px 0px;
+    border-radius: 20px;
  }
 
  .borderr{
      border: 1px solid #D3D7DB;
      border-radius: 10px;
      padding: 5px;
+     margin-right: 10px;
+     display: inline-block;
+     font-size: 12px;
 
  }
 
@@ -71,9 +81,11 @@ header{
     border-radius: 30px;
     border:1px solid greenyellow;
     margin: 10px 0px;
-    width: 20px;
-    height: 20px;
-    font-size: 15px;
+    width: 15px;
+    height: 15px;
+    font-size: 10px;
+    text-align: center;
+    vertical-align: middle;
 }
 
 .redcross{
@@ -82,28 +94,31 @@ header{
     border-radius: 30px;
     border:1px solid red;
     margin: 10px 0px;
-    width: 20px;
-    height: 20px;
-    font-size: 15px;
+    width: 15px;
+    height: 15px;
+    text-align: center;
+    font-size: 10px;
+    vertical-align: middle;
 }
      
 
 
 /* start main container 2 */
 
-.container2{
+.todobottom{
     background-color: white;
-    margin: 0px 260px;
-    padding: 20px;
-    width: 60%;
-    height: 600px;
-    display: inline-block;
+    border-radius: 20px;
+    width: 80%;
+    margin: auto;
+    margin-top: 1px;
+    padding: 20px 0px;
  }
      
 
 
 .ulist{
     font-size: 20px;
+    line-height: 20px;
 }
 
 ul{
@@ -115,7 +130,7 @@ ul{
 .ticket{
      border: 1px solid #47ADF1;
      background-color: #47ADF1;
-     font-size: 13px;
+     font-size: 10px;
      border-radius: 60px;
      padding: 3px;
      color: white;
@@ -124,7 +139,7 @@ ul{
 .ticketviolet{
      border: 1px solid #9C72E4;
      background-color: #9C72E4;
-     font-size: 13px;
+     font-size: 10px;
      border-radius: 60px;
      padding: 3px;
      color: white;
@@ -133,7 +148,7 @@ ul{
 .ticketgreen{
      border: 1px solid #64C0A9;
      background-color: #64C0A9;
-     font-size: 13px;
+     font-size: 10px;
      border-radius: 60px;
      padding: 3px;
      color: white;
@@ -142,12 +157,31 @@ ul{
  .ticketorange{
      border: 1px solid #F29E33;
      background-color:  #F29E33;
-     font-size: 13px;
+     font-size: 10px;
      border-radius: 60px;
      padding: 3px;
      color: white;
 }
   
+.ticketlightviolet{
+     border: 1px solid #D863A1;
+     background-color:  #D863A1;
+     font-size: 10px;
+     border-radius: 60px;
+     padding: 3px;
+     color: white;
+}
+
+.ticketgreendeep{
+     border: 1px solid #B0C926;
+     background-color:  #B0C926;
+     font-size: 10px;
+     border-radius: 60px;
+     padding: 3px;
+     color: white;
+}
+    /* end tickets */
+
 
  .today {
     margin-top: 20px;
